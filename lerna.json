@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "component_app/",
+    "app/"
+  ],
+  "version": "0.0.0"
+}
