@@ -1,10 +1,10 @@
 {
-  "name": "app",
+  "name": "new_app",
   "version": "0.0.0",
   "scripts": {
     "webpack": "webpack --watch",
     "build": "webpack",
-    "serve": "serve dist -p 3002",
+    "serve": "serve dist -p 3003",
     "start": "concurrently \"npm run webpack\" \"npm run serve\""
   },
   "devDependencies": {
@@ -14,13 +14,16 @@
     "concurrently": "6.2.0",
     "css-loader": "6.2.0",
     "html-webpack-plugin": "5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
     "serve": "11.3.2",
-    "style-loader": "3.2.1",
+    "style-loader": "^3.2.1",
     "url-loader": "4.1.1",
     "webpack": "5.47.1",
     "webpack-cli": "4.7.2"
   },
   "dependencies": {
+    "antd": "^4.16.13",
     "moment": "^2.29.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
